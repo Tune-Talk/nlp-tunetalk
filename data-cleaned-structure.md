@@ -1,0 +1,8 @@
+goemotions.csv
+sample_id,raw_text,clean_text,final_text,goemotions_label,emotion_label,label_id
+
+empathetic_dialogues
+doc_id,prompt,response,emotion_raw,emotion_label
+
+spotify_lyrics
+song_id_clean,title,artists,genres_clean,mood_category,emotion_label,clean_text,final_text,spotify_url
