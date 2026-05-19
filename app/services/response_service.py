@@ -53,17 +53,24 @@ class ResponseService:
     ]
 
     def __init__(self):
-        self.model = SentenceTransformer(
-            SBERT_ENCODER_ID, token=HF_TOKEN or None, device="cpu"
-        )
-
+        self.model = None
         self.response_bank = {}
         self.assistant_replies = []
         self.reply_emotions = []
         self.embeddings = None
 
-        self._load_data()
+        self._load_model()
+        if self.model is not None:
+            self._load_data()
         self._build_response_bank()
+
+    def _load_model(self):
+        try:
+            self.model = SentenceTransformer(
+                SBERT_ENCODER_ID, token=HF_TOKEN or None, device="cpu"
+            )
+        except Exception:
+            self.model = None
 
     def _load_data(self):
         try:
@@ -112,7 +119,7 @@ class ResponseService:
         return self._fallback_response(emotion_label, follow_up, music_phrase)
 
     def _retrieve(self, text: str, bucket: list) -> str | None:
-        if self.embeddings is None or self.embeddings.shape[0] == 0:
+        if self.model is None or self.embeddings is None or self.embeddings.shape[0] == 0:
             return None
 
         query_vec = self.model.encode([text], convert_to_numpy=True)

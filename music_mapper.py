@@ -10,7 +10,7 @@ class MusicMapper:
 
     EMOTION_TO_VA = {
         "sadness": {"valence": -0.75, "arousal": -0.40},
-        "anger": {"valence": -0.80, "arousal": 0.75},
+        "anger": {"valence": -0.80, "arousal": 0.65},
         "joy": {"valence": 0.85, "arousal": 0.70},
         "anxiety": {"valence": -0.65, "arousal": 0.85},
         "calm": {"valence": 0.60, "arousal": -0.55},
@@ -165,4 +165,3 @@ class MusicMapper:
             "mood_category": target_mood,
             "songs": songs,
         }
-
