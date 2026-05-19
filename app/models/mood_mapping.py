@@ -1,0 +1,42 @@
+MOOD_MAPPING = [
+    {
+        "emotion_label": "sadness",
+        "valence_range": [-1.0, -0.5],
+        "arousal_range": [-1.0, 0.0],
+        "mood_category": "melancholic",
+        "recommended_genres": ["indie", "folk", "acoustic"],
+        "tempo_range": "slow",
+    },
+    {
+        "emotion_label": "anger",
+        "valence_range": [-1.0, -0.3],
+        "arousal_range": [0.5, 1.0],
+        "mood_category": "intense",
+        "recommended_genres": ["rock", "metal", "hip-hop"],
+        "tempo_range": "fast",
+    },
+    {
+        "emotion_label": "joy",
+        "valence_range": [0.5, 1.0],
+        "arousal_range": [0.3, 1.0],
+        "mood_category": "euphoric",
+        "recommended_genres": ["pop", "dance", "funk"],
+        "tempo_range": "fast",
+    },
+    {
+        "emotion_label": "anxiety",
+        "valence_range": [-0.8, -0.2],
+        "arousal_range": [0.3, 0.8],
+        "mood_category": "tense",
+        "recommended_genres": ["ambient", "lo-fi", "classical"],
+        "tempo_range": "slow",
+    },
+    {
+        "emotion_label": "calm",
+        "valence_range": [0.2, 0.7],
+        "arousal_range": [-1.0, 0.2],
+        "mood_category": "peaceful",
+        "recommended_genres": ["ambient", "jazz", "classical"],
+        "tempo_range": "slow",
+    },
+]

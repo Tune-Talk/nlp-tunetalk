@@ -1,1 +1,13 @@
-.md
+.env
+
+AGENTS.md
+project-context.md
+project-pipeline.md
+.venv/
+__pycache__/
+cache/
+*.pyc
+
+.kilo
+api-documentation.md
+test-case.md

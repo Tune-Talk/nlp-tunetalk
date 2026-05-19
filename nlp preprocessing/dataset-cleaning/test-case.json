@@ -1,0 +1,136 @@
+test_cases = [
+    # SADNESS
+    {
+        "emotion": "sadness",
+        "input": "I feel so empty and lost today, like nothing I do matters anymore.",
+        "reference": "It sounds like you're carrying a lot right now. It's okay to feel this way, and I'm here to listen."
+    },
+    {
+        "emotion": "sadness",
+        "input": "I've been crying all day and I don't even know why. I just feel so alone.",
+        "reference": "Sometimes sadness doesn't need a reason. You're not alone in feeling this way, and it's okay to let it out."
+    },
+    {
+        "emotion": "sadness",
+        "input": "My best friend stopped talking to me and I miss them so much. It hurts every day.",
+        "reference": "Losing someone close to you is really painful. It's natural to grieve that connection and miss them deeply."
+    },
+    {
+        "emotion": "sadness",
+        "input": "I feel like I'm invisible to everyone around me. No one notices when I'm struggling.",
+        "reference": "Feeling unseen is one of the hardest things to go through. Your feelings are valid and you deserve to be heard."
+    },
+    {
+        "emotion": "sadness",
+        "input": "Everything feels grey and meaningless lately. I used to enjoy things but now nothing feels good.",
+        "reference": "When joy feels out of reach, it can be really exhausting. I hear you, and I hope things start to feel lighter soon."
+    },
+
+    # ANGER
+    {
+        "emotion": "anger",
+        "input": "I'm so furious right now. My coworker took credit for my work again and no one did anything.",
+        "reference": "That sounds incredibly frustrating and unfair. It's completely understandable to feel angry when your efforts aren't recognized."
+    },
+    {
+        "emotion": "anger",
+        "input": "I can't believe people can be so selfish and inconsiderate. I'm done being patient.",
+        "reference": "It makes sense that you're fed up. Constantly dealing with inconsiderate people is exhausting and it's okay to feel angry."
+    },
+    {
+        "emotion": "anger",
+        "input": "My parents keep making decisions for me without asking. I'm so tired of not being respected.",
+        "reference": "Feeling like your autonomy isn't respected is really frustrating. Your need to be heard and treated as an adult is valid."
+    },
+    {
+        "emotion": "anger",
+        "input": "I worked so hard for this and someone else got it just because they know the right people. It's not fair.",
+        "reference": "That kind of injustice is genuinely infuriating. Your hard work deserves recognition and it's okay to be upset about this."
+    },
+    {
+        "emotion": "anger",
+        "input": "I told them exactly what I needed and they ignored me completely. I feel disrespected.",
+        "reference": "Being dismissed when you've clearly communicated your needs is deeply frustrating. Your feelings of anger are completely justified."
+    },
+
+    # JOY
+    {
+        "emotion": "joy",
+        "input": "I just got accepted into my dream university! I can't stop smiling, I worked so hard for this.",
+        "reference": "That is absolutely wonderful news! All your hard work paid off and you should be so proud of yourself."
+    },
+    {
+        "emotion": "joy",
+        "input": "I had the most amazing day with my family today. We laughed so much and it felt so warm.",
+        "reference": "Those moments of genuine connection with family are so precious. It sounds like a truly beautiful day."
+    },
+    {
+        "emotion": "joy",
+        "input": "I finally finished the project I've been working on for months. I feel so accomplished and relieved.",
+        "reference": "What an amazing feeling! Completing something you've dedicated so much time to is such a rewarding experience."
+    },
+    {
+        "emotion": "joy",
+        "input": "My partner surprised me with something really thoughtful today and I feel so loved and appreciated.",
+        "reference": "That sounds so heartwarming. It's a beautiful feeling when someone who cares about you shows it in such a meaningful way."
+    },
+    {
+        "emotion": "joy",
+        "input": "I just found out I'm going to be an older sibling! Our family is growing and I'm beyond excited.",
+        "reference": "What exciting news! A new addition to the family is such a joyful thing and your excitement is completely contagious."
+    },
+
+    # ANXIETY
+    {
+        "emotion": "anxiety",
+        "input": "I have a big presentation tomorrow and I can't sleep. My mind keeps racing with everything that could go wrong.",
+        "reference": "It's really common to feel this way before something important. Try to take slow breaths and remember that you've prepared for this."
+    },
+    {
+        "emotion": "anxiety",
+        "input": "I keep overthinking every conversation I have. I always feel like I said something wrong.",
+        "reference": "Overthinking like that can be really exhausting. Most of the time, people are far less focused on our mistakes than we think."
+    },
+    {
+        "emotion": "anxiety",
+        "input": "I feel like something bad is about to happen even though nothing is wrong. I can't shake this feeling.",
+        "reference": "That sense of dread without a clear cause can feel really unsettling. You're not alone in experiencing this kind of anxiety."
+    },
+    {
+        "emotion": "anxiety",
+        "input": "I have so many deadlines piling up and I don't know where to start. I feel paralyzed.",
+        "reference": "Feeling overwhelmed by too many things at once is really difficult. Breaking things into smaller steps can sometimes help ease that paralyzed feeling."
+    },
+    {
+        "emotion": "anxiety",
+        "input": "I'm scared about the future and whether I'm making the right choices. What if I regret everything?",
+        "reference": "Uncertainty about the future is something so many people struggle with. It's okay not to have everything figured out right now."
+    },
+
+    # CALM
+    {
+        "emotion": "calm",
+        "input": "I just got back from a long walk in the park. I feel peaceful and clear-headed for the first time in weeks.",
+        "reference": "That sounds really restorative. Time in nature has a way of quieting the mind and bringing things back into perspective."
+    },
+    {
+        "emotion": "calm",
+        "input": "I spent the morning journaling and meditating. I feel centered and ready to face the day.",
+        "reference": "Starting the day with that kind of intention is really grounding. It sounds like you've found a routine that genuinely works for you."
+    },
+    {
+        "emotion": "calm",
+        "input": "Things have been stressful lately but today I just let myself rest and it feels good to do nothing.",
+        "reference": "Rest is so important and it takes wisdom to allow yourself that space. It sounds like you really needed and deserved this today."
+    },
+    {
+        "emotion": "calm",
+        "input": "I had a quiet evening at home, made some tea, and read a book. I feel content and at ease.",
+        "reference": "There's something really lovely about those simple, quiet evenings. It sounds like you gave yourself exactly what you needed."
+    },
+    {
+        "emotion": "calm",
+        "input": "I finally resolved a conflict with someone I care about and now I feel relieved and at peace.",
+        "reference": "Resolving tension with someone you care about is such a relief. That sense of peace after reconciliation is really meaningful."
+    },
+]
